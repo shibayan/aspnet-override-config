@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideConfig", "OverrideConfig\OverrideConfig.csproj", "{4CA622D3-71CC-4EB8-B4B6-7F7C439AF1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{4D690D3C-FBD1-4BBA-905A-7DFD79005444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA622D3-71CC-4EB8-B4B6-7F7C439AF1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA622D3-71CC-4EB8-B4B6-7F7C439AF1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA622D3-71CC-4EB8-B4B6-7F7C439AF1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA622D3-71CC-4EB8-B4B6-7F7C439AF1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D690D3C-FBD1-4BBA-905A-7DFD79005444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D690D3C-FBD1-4BBA-905A-7DFD79005444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D690D3C-FBD1-4BBA-905A-7DFD79005444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D690D3C-FBD1-4BBA-905A-7DFD79005444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
