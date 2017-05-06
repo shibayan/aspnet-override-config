@@ -10,7 +10,20 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <%: ConfigurationManager.AppSettings["TEST"] %>
+        <h3>App Settings</h3>
+        <ul>
+            <% foreach (var key in ConfigurationManager.AppSettings.AllKeys)
+               { %>
+            <li><%: key %>: <%: ConfigurationManager.AppSettings[key] %></li>
+            <% } %>
+        </ul>
+        <h3>Connection String</h3>
+        <ul>
+            <% foreach (ConnectionStringSettings setting in ConfigurationManager.ConnectionStrings)
+               { %>
+                <li><%: setting.Name %>: <%: setting.ConnectionString %></li>
+            <% } %>
+        </ul>
     </div>
     </form>
 </body>

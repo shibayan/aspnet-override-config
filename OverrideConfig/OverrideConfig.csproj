@@ -37,8 +37,8 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModuleRegistration.cs" />
-    <Compile Include="OverrideConfigHttpModule.cs" />
+    <Compile Include="ConfigurationExtension.cs" />
+    <Compile Include="OverrideBootstrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
