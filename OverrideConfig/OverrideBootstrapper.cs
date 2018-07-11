@@ -29,7 +29,7 @@ namespace OverrideConfig
             }
         }
 
-        private const string AppSettingsPrefix = "APPSETTINGS_";
+        private const string AppSettingsPrefix = "APPSETTING_";
         private const string SqlServerConnStrPrefix = "SQLSERVERCONNSTR_";
 
         private const string SqlServerProviderName = "System.Data.SqlClient";
